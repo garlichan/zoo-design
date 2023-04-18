@@ -1,0 +1,113 @@
+/**colores (de oscuro a claro):
+#42ab49
+#5dc460
+#77dd77
+#a5eea0
+#cfffca
+**/
+@font-face {
+  font-family: "Quicksand";
+  src: url("Quicksand-Medium.ttf");
+}
+/*contenedor principal*/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Quicksand", cursive;
+}
+/*cabecera*/
+header {
+    height: 200px;
+    background-color: #42ab49;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+    box-shadow: 1px 1px 10px 1px #42ab49;
+  }
+  header h3 {
+    flex-basis: 30%;
+    margin-left: 5%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .logo {
+    display: flex;
+    flex-basis: 20%;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    margin-right: 5%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 25px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+      width: 120px;
+      height: 30px;
+  }
+
+/*pagina main (grid)*/
+.main{
+  width: 100%;
+  background-color: #5dc460;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section{
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 650px;
+  display: grid;
+  grid-template-rows:10% 80%;
+  text-align: center;
+  font-size: 25px;
+}
+.section p{
+  margin-top:2%;
+  width: 100%;
+}
+.animalphotos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,50%);
+  text-align: center;
+  background-color: #77dd77;
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+}
+.animalphotos img{
+  margin-left: 15%;
+  margin-top: 10%;
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+}
+/*pie de página*/
+footer {
+    height: 100px;
+    flex-basis: 100%;
+    background-color: #42ab49;
+    border: 1px;
+    box-shadow: 1px 1px 10px 1px #42ab49;
+  }
+  .pagina_contacto {
+    margin-top: 2%;
+    margin-right: 5%;
+    text-align: end;
+  }
+  footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }

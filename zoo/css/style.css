@@ -1,0 +1,195 @@
+/**colores (de oscuro a claro):
+#42ab49
+#5dc460
+#77dd77
+#a5eea0
+#cfffca
+**/
+@font-face {
+  font-family: "Quicksand";
+  src: url("Quicksand-Medium.ttf");
+}
+
+/*contenedor*/
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Quicksand", cursive;
+}
+/*cabecera*/
+header {
+  height: 200px;
+  background-color: #42ab49;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+}
+header h3 {
+  flex-basis: 30%;
+  margin-left: 5%;
+  font-size: 50px;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  flex-basis: 20%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+  margin-right: 5%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+    width: 120px;
+    height: 30px;
+}
+/*contenido principal*/
+.main {
+  align-items: center;
+  justify-content: space-between;
+  height: 650px;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #5dc460;
+}
+/*lateral*/
+aside {
+  flex-basis: 40%;
+  margin-left: 2%;
+}
+/*horario*/
+.horario {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #77dd77;
+  margin: 1%;
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+  margin-bottom: 2%;
+}
+.horario h3 {
+  text-align: center;
+}
+
+.horas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+   justify-content: center;
+}
+.semana{
+    margin-right: 2%;
+}
+.finde{
+    margin-left: 5%;
+}
+
+/*ubicación*/
+.ubi {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #77dd77;
+  margin: 1%;
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+}
+.ubi h3 {
+text-align: center;
+
+}
+.map {
+  text-align: center;
+  margin-bottom: 3%;
+}
+.map iframe {
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+}
+/*sección*/
+section {
+  height: 100%;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 2%;
+  justify-content: center;
+}
+section h2 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+section p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*articulos*/
+.article {
+  background-color: #77dd77;
+  height: 260px;
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+.article h3 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.info {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 170px;
+}
+.info img {
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+}
+/*pie de página*/
+footer {
+  height: 100px;
+  flex-basis: 100%;
+  background-color: #42ab49;
+  border: 1px;
+  box-shadow: 1px 1px 10px 1px #42ab49;
+}
+.pagina_contacto {
+  margin-top: 2%;
+  margin-right: 5%;
+  text-align: end;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}

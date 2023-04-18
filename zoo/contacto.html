@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/contacto.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="bootstrap//css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <h3>CarZoo</h3>
+            <div class="logo">
+                <img src="imagenes/logo_zoo.png" width="50%" height="50%" />
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="blog.html">Blog</a>
+                <a href="contactoen.html">
+                    <img src="imagenes/en.png" width=50% height=30px>
+                </a>
+                <a href="contactofr.html"><img src="imagenes/fr.png" width=50% height=30px></a>
+            </nav>
+        </header>
+        <div class="main">
+            <form class="form-horizontal" method="post">
+                <legend>CONTACTA CON NOSOTROS</legend>
+                <fieldset>
+                    <div class="form-group">
+                        <div class="col-md-8">
+                            <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-8">
+                            <input id="email" name="email" type="text" placeholder="Correo electrónico" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-8">
+                            <textarea class="form-control" id="message" name="message" placeholder="Escríbenos aquí tu mensaje. Le contestaremos en un plazo de 2 días hábiles " rows="7"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <div class="pagina_contacto">
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
